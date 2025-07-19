@@ -2929,9 +2929,9 @@ Windows Registry Editor Version 5.00
 "NoInstrumentation"=-
 "HideSCAMeetNow"=dword:00000001
 
-; remove search from taskbar
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
-"SearchboxTaskbarMode"=dword:00000000
+; remove search from taskbar [ivanc]
+;; [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+;; "SearchboxTaskbarMode"=dword:00000000
 
 ; disable use dynamic lighting on my devices
 ; disable compatible apps in the forground always control lighting
@@ -3338,9 +3338,9 @@ Windows Registry Editor Version 5.00
 
 [-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 
-; search from taskbar
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
-"SearchboxTaskbarMode"=-
+; search from taskbar [ivanc]
+;; [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+;; "SearchboxTaskbarMode"=-
 
 ; meet now
 [-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
@@ -4310,7 +4310,7 @@ Windows Registry Editor Version 5.00
 "NoInstrumentation"=-
 "HideSCAMeetNow"=dword:00000001
 
-; remove search from taskbar
+; remove search from taskbar [ivanc]
 ;; [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
 ;; "SearchboxTaskbarMode"=dword:00000000
 
